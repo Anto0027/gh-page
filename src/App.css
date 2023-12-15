@@ -1,0 +1,33 @@
+body {
+  margin-top: 50px; /* Ajusta la altura según sea necesario para evitar que el navbar tape el contenido */
+  background-color: #3d64d0;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.column-left {
+  width: 49%;
+  background-color: #a5a1a1;
+  padding: 20px;
+}
+
+.column-right {
+  width: 49%;
+  background-color: #a5a1a1;
+  padding: 20px;
+}
+.footer {
+  background-color: #13234f ;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
